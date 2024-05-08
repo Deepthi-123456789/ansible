@@ -1,0 +1,10 @@
+#variables in  play
+-name: variables play
+ host: localhost
+ vars: 
+  -course: devops
+  -trainer: siva
+ task:
+  -name: varaibles
+  ansible.builin.debug:
+    msg: "hi iam learning {{course}},traineer is {{trainer}}"

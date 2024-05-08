@@ -1,0 +1,9 @@
+#variables in files 
+-name: variables play
+ host: localhost
+ vars_files:
+  -variables.yaml
+ task:
+  -name: varaibles
+  ansible.builin.debug:
+    msg: "hi iam learning {{course}},traineer is {{trainer}}"
