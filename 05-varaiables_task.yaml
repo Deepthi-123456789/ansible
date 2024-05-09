@@ -1,0 +1,11 @@
+- name: variables task
+  hosts: localhost
+  vars:
+    course: "Devops"
+    trainer: "siva"
+  tasks:
+  - name: varibles providing in task and play
+    vars: 
+      course: "Devops using aws"
+    ansible.builtin.debug:
+      msg: "hello i am leraning {{course}} and my trainer is {{trainer}}"
