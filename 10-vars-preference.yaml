@@ -3,7 +3,7 @@
   vars_prompt:
     - name: course
       prompt: please enter course 
-      private: flase
+      private: false
     - name: trainer
       prompt: please enter trainer 
       private: true 
