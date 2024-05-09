@@ -2,10 +2,10 @@
   hosts: localhost
   vars_prompt:
     -course: course
-     prompt: enter course from prompt
+     prompt: please enter course 
      private: flase
     - name: trainer
-      prompt: enter password from prompt
+      prompt: please enter trainer 
       private: true 
   vars:
     course: Devops in play
