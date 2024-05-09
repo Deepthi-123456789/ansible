@@ -4,8 +4,8 @@
   - name: loopprocess
     ansible.builtin.debug:
       msg: "name {{item}}"
-      loop:
-      - ram
-      - sai
-      - sri
-      - balu
+    loop:
+    - ram
+    - sai
+    - sri
+    - balu
