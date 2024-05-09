@@ -1,9 +1,9 @@
 - name: loops
   hosts: localhost
   tasks:
-  - name: looping
+  - name: loopprocess
     ansible.builtin.debug:
-      msg: "skills {{item}}"
+      name: {{item}}
       state: present
     loop:
     - devops
