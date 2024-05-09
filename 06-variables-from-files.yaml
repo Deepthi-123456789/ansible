@@ -1,7 +1,7 @@
 - name: varaibales from files
   hosts: localhost
   vars_files:
-  -variables.yaml
+  - variables.yaml
   tasks:
   - name: "passing variables thro files"
     ansible.builtin.debug
