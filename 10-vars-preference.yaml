@@ -1,9 +1,9 @@
 - name: variable preferences
   hosts: localhost
   vars_prompt:
-    -course: course
-     prompt: please enter course 
-     private: flase
+    - name: course
+      prompt: please enter course 
+      private: flase
     - name: trainer
       prompt: please enter trainer 
       private: true 
