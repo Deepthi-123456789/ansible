@@ -10,4 +10,4 @@
   tasks:
   - name: promting
     ansible.builtin.debug:
-    msg: name is {{USERNAME}} and password is {{PASSWORD}}
+    msg: "name is {{USERNAME}} and password is {{PASSWORD}}"
