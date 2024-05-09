@@ -1,0 +1,13 @@
+- name: promiting in varaiables
+  hosts: localhost
+  vars_prompt:
+  - name: USERNAME
+    prompt: please enter username
+    private: false
+  - name: PASSWORD
+    promt: please enter password
+    private: true
+  tasks:
+  - name: promting
+  ansible.builtin.debug:
+    msg: name is {{USERNAME}} and password is {{PASSWORD}}
