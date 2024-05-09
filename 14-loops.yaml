@@ -3,7 +3,7 @@
   tasks:
   - name: loopprocess
     ansible.builtin.debug:
-      name: {{item}}
+      name: "{{item}}"
       state: present
     loop:
     - devops
