@@ -1,0 +1,26 @@
+- name: data typs
+  hosts: localhost
+  vars:
+  - name: siva
+    skills:
+    - Devops
+    - git 
+    - shell
+    experinces:
+      Devops: 3
+      git: 2
+      shell: 1
+    trainer: true
+  tasks:
+  - name: print keyvalue pair
+    ansible.builtin.debug:
+      msg: "name: {{name}}"
+  - name: list
+    ansible.builtin.debug:
+      msg: "skills: {{skills}}"
+  - name: print map"
+    ansible.builtin.debug:
+      msg: "experinces: {{experinces}}"
+  - name: boolean
+    ansible.builtin.debug:
+      msg: "trainer: {{trainer}}"
