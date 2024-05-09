@@ -1,10 +1,10 @@
 - name: variable preferences
   hosts: localhost
   vars_prompt:
-    -name: course
+    -course: course
      prompt: enter course from prompt
      private: flase
-    - name: Passord
+    - name: trainer
       prompt: enter password from prompt
       private: true 
   vars:
