@@ -1,12 +1,12 @@
 - name: variable preferences
   hosts: localhost
-  vars_prompt:
-    - name: course
-      prompt: please enter course 
-      private: false
-    - name: trainer
-      prompt: please enter trainer 
-      private: true 
+  # vars_prompt:
+  #   - name: course
+  #     prompt: please enter course 
+  #     private: false
+  #   - name: trainer
+  #     prompt: please enter trainer 
+  #     private: true 
   vars:
     course: Devops in play
     trainer: siva in play
@@ -24,3 +24,5 @@
      #cmd
      #task
      #files
+     #promet
+     
