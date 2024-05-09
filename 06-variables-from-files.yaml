@@ -5,4 +5,4 @@
   tasks:
   - name: "passing variables thro files"
     ansible.builtin.debug
-    msg: "hello i am  learning {{course}} and trainer is {{trainer}} and duriation is {{duriation}}"
+      msg: "hello i am  learning {{course}} and trainer is {{trainer}} and duriation is {{duriation}}"
