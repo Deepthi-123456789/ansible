@@ -7,9 +7,9 @@
   #   - name: trainer
   #     prompt: please enter trainer 
   #     private: true 
-  vars:
-    course: Devops in play
-    trainer: siva in play
+  # vars:
+  #   course: Devops in play
+  #   trainer: siva in play
   # vars_files:
   # - variables.yaml
   tasks:
@@ -25,4 +25,4 @@
      #task
      #files
      #promet
-     
+     #play
