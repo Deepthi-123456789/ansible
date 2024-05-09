@@ -3,4 +3,4 @@
   tasks:
   - name: arguments as variables
     ansible.builtin.debug:
-      msg: "hi iam learning {{course}} and trainer is {{trainer}}"
+      msg: "hi iam learning {{Course}} and trainer is {{Trainer}}"
