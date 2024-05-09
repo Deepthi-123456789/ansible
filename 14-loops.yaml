@@ -1,25 +1,25 @@
-- name: loops
-  hosts: localhost
-  become: yes
-  tasks:
-  - name: loopprocess
-    ansible.builtin.debug:
-      name: "{{item}}"
-      state: present
-    loop:
-    - devops
-    - aws
-    - git
-
 # - name: loops
 #   hosts: localhost
 #   become: yes
 #   tasks:
-#   - name: print persons
-#     ansible.builtin.package:
+#   - name: loopprocess
+#     ansible.builtin.debug:
 #       name: "{{item}}"
-#       state: present # item is a default keyword
+#       state: present
 #     loop:
+#     - devops
+#     - aws
 #     - git
-#     - mysql
-#     - postfix
+
+- name: loops
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: print persons
+    ansible.builtin.package:
+      name: "{{item}}"
+      state: present # item is a default keyword
+    loop:
+    - git
+    - mysql
+    - postfix
