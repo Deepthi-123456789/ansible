@@ -1,7 +1,7 @@
 - name: loops
   hosts: localhost
   tasks:
-  - name: looping
+  - name: loopprocess
     ansible.builtin.debug:
       msg: "name {{item}}"
       loop:
