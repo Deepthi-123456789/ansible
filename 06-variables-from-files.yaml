@@ -3,6 +3,6 @@
   vars_files:
   - variables.yaml
   tasks:
-  - name: "passing variables thro files"
-    ansible.builtin.debug
+  - name: passing variables throw files
+    ansible.builtin.debug:
       msg: "hello i am  learning {{course}} and trainer is {{trainer}} and duriation is {{duriation}}"
