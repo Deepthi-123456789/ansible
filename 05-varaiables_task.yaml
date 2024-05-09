@@ -7,5 +7,6 @@
   - name: varibles providing in task and play
     vars: 
       course: "Devops using aws"
+      trainer: "sivakumar"
     ansible.builtin.debug:
       msg: "hello i am leraning {{course}} and my trainer is {{trainer}}"
